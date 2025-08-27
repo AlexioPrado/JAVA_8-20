@@ -19,9 +19,10 @@ public class peer {
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
         // Declaring and initializing variables
+        // fractions
         int numerator = 0;
         int denominator = 0;
-        // Mixed fraction variables
+        // Mixed fraction variables [a + b/c]
         int a = 0;
         int b = 0;
         int c = 0;
@@ -35,12 +36,9 @@ public class peer {
         denominator = input.nextInt();
 
         /*
-         * If Statement Hiearchy
-         * 1. if(num > den)
-         *  1a.num % den == 0
-         *  2a. 
-         * 2. num == den
-         * 3. num < den
+         * If Statement
+         * Determining what the fraction is: Improper, Proper, and reduce them to their simpler forms and/or mixed fraction
+         * The fraction in the mixed fraction was also reduced to its simpler form
          */
 
         if (numerator > denominator) {
